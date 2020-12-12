@@ -1,51 +1,51 @@
 [
   {
     "path": "/",
-    "component": "/Users/shangyakun/Desktop/web-work/part3/part3-3/pages/layout",
+    "component": "/Users/shangyakun/Desktop/realworld/pages/layout",
     "children": [
       {
         "path": "/",
         "name": "home",
-        "component": "/Users/shangyakun/Desktop/web-work/part3/part3-3/pages/home",
-        "_name": "_166e381c"
+        "component": "/Users/shangyakun/Desktop/realworld/pages/home",
+        "_name": "_82f9ff60"
       },
       {
         "path": "/login",
         "name": "login",
-        "component": "/Users/shangyakun/Desktop/web-work/part3/part3-3/pages/login",
-        "_name": "_90ddd868"
+        "component": "/Users/shangyakun/Desktop/realworld/pages/login",
+        "_name": "_12155218"
       },
       {
         "path": "/register",
         "name": "register",
-        "component": "/Users/shangyakun/Desktop/web-work/part3/part3-3/pages/login",
-        "_name": "_90ddd868"
+        "component": "/Users/shangyakun/Desktop/realworld/pages/login",
+        "_name": "_12155218"
       },
       {
         "path": "/settings",
         "name": "settings",
-        "component": "/Users/shangyakun/Desktop/web-work/part3/part3-3/pages/settings",
-        "_name": "_8e7bce40"
+        "component": "/Users/shangyakun/Desktop/realworld/pages/settings",
+        "_name": "_3c0fa714"
       },
       {
         "path": "/article/:slug",
         "name": "article",
-        "component": "/Users/shangyakun/Desktop/web-work/part3/part3-3/pages/article",
-        "_name": "_50e736ce"
+        "component": "/Users/shangyakun/Desktop/realworld/pages/article",
+        "_name": "_bc0b8036"
       },
       {
         "path": "/profile/:slug",
         "name": "profile",
-        "component": "/Users/shangyakun/Desktop/web-work/part3/part3-3/pages/profile",
-        "_name": "_1e7bbd68"
+        "component": "/Users/shangyakun/Desktop/realworld/pages/profile",
+        "_name": "_89a006d0"
       },
       {
         "path": "/edit/:slug?",
         "name": "edit",
-        "component": "/Users/shangyakun/Desktop/web-work/part3/part3-3/pages/edit",
-        "_name": "_166cb147"
+        "component": "/Users/shangyakun/Desktop/realworld/pages/edit",
+        "_name": "_82fd0d0a"
       }
     ],
-    "_name": "_39d46327"
+    "_name": "_2fd7ee5b"
   }
 ]
