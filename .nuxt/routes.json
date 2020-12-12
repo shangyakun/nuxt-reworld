@@ -1,0 +1,51 @@
+[
+  {
+    "path": "/",
+    "component": "/Users/shangyakun/Desktop/web-work/part3/part3-3/pages/layout",
+    "children": [
+      {
+        "path": "/",
+        "name": "home",
+        "component": "/Users/shangyakun/Desktop/web-work/part3/part3-3/pages/home",
+        "_name": "_166e381c"
+      },
+      {
+        "path": "/login",
+        "name": "login",
+        "component": "/Users/shangyakun/Desktop/web-work/part3/part3-3/pages/login",
+        "_name": "_90ddd868"
+      },
+      {
+        "path": "/register",
+        "name": "register",
+        "component": "/Users/shangyakun/Desktop/web-work/part3/part3-3/pages/login",
+        "_name": "_90ddd868"
+      },
+      {
+        "path": "/settings",
+        "name": "settings",
+        "component": "/Users/shangyakun/Desktop/web-work/part3/part3-3/pages/settings",
+        "_name": "_8e7bce40"
+      },
+      {
+        "path": "/article/:slug",
+        "name": "article",
+        "component": "/Users/shangyakun/Desktop/web-work/part3/part3-3/pages/article",
+        "_name": "_50e736ce"
+      },
+      {
+        "path": "/profile/:slug",
+        "name": "profile",
+        "component": "/Users/shangyakun/Desktop/web-work/part3/part3-3/pages/profile",
+        "_name": "_1e7bbd68"
+      },
+      {
+        "path": "/edit/:slug?",
+        "name": "edit",
+        "component": "/Users/shangyakun/Desktop/web-work/part3/part3-3/pages/edit",
+        "_name": "_166cb147"
+      }
+    ],
+    "_name": "_39d46327"
+  }
+]
