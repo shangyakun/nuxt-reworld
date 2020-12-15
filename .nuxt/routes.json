@@ -4,7 +4,7 @@
     "component": "/Users/shangyakun/Desktop/realworld/pages/layout",
     "children": [
       {
-        "path": "/",
+        "path": "",
         "name": "home",
         "component": "/Users/shangyakun/Desktop/realworld/pages/home",
         "_name": "_82f9ff60"

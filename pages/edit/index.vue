@@ -53,6 +53,7 @@
 <script>
 import { createArticle, updateArticle, getArticleDetail } from "@/api/article";
 export default {
+  middleware: 'authenticated',
   name: "edit-create",
   async asyncData({ params }) {
     if (params.slug) {

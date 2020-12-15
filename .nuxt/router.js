@@ -32,7 +32,7 @@ export const routerOptions = {
     path: "/",
     component: _2fd7ee5b,
     children: [{
-      path: "/",
+      path: "",
       component: _82f9ff60,
       name: "home"
     }, {

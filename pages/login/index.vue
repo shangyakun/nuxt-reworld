@@ -11,7 +11,7 @@
                         </p>
                         <ul class="error-messages">
                             <template v-for="(msg,field) in errMsg">
-                                <li v-for="item,index in msg" :keu='index'>{{field}} {{item}}</li>
+                                <li v-for="(item,index) in msg" :key='index'>{{field}} {{item}}</li>
                             </template>
                         </ul>
                         <form @submit.prevent="submit">
@@ -39,6 +39,7 @@ import { login, register } from '@/api'
 //客户端存储,process.client 特殊数据，客户端为true，服务端是false
 const Cookie = process.client ? require('js-cookie') :undefined;
 export default {
+    middleware: 'notAuthenticated',
     name:"login",
     data(){
         return {

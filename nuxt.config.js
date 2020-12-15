@@ -9,7 +9,7 @@ export default {
                 component:resolve(__dirname,'pages/layout/'),
                 children:[
                   	{
-						path:'/',
+						path:'',
 						name:'home',
                     	component:resolve(__dirname,'pages/home/'),
 					},
@@ -55,5 +55,6 @@ export default {
 	//插件需要注册
 	plugins: [
 		'~/plugins/request.js',
+		'~/plugins/day.js'
 	]
 }

@@ -72,7 +72,7 @@
                   </nuxt-link>
                   <div class="info">
                     <nuxt-link class="author" :to="'/profile/'+item.author.username">{{ item.author.username }}</nuxt-link>
-                    <span class="date">{{ item.createdAt }}</span>
+                    <span class="date">{{ item.createdAt | date('MMM DD, YYYY') }}</span>
                   </div>
                   <button
                     @click="favoriteClick(item)"

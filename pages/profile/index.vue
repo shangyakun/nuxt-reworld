@@ -83,7 +83,7 @@
                   <nuxt-link :to="'/profile/' + article.author.username">{{
                     article.author.username
                   }}</nuxt-link>
-                  <span class="date">{{ article.createdAt }}</span>
+                  <span class="date">{{ article.createdAt | date('MMM DD, YYYY') }}</span>
                 </div>
                 <!-- <button class="btn btn-outline-primary btn-sm pull-xs-right">
                   <i class="ion-heart"></i> {{ article.favoritesCount }}
@@ -119,6 +119,7 @@ import { getProfile } from "@/api/profile";
 import { mapState } from "vuex";
 export default {
   name: "profile",
+  middleware: 'authenticated',
   computed: {
     ...mapState(["user"]),
   },

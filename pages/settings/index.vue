@@ -42,6 +42,7 @@
 import { user } from '@/api/user'
 const Cookie = process.client ? require('js-cookie') :undefined;
 export default {
+    middleware: 'authenticated',
     name:"setting",
     asyncData({store}) {
       const {image,email,username,bio} = store.state.user;

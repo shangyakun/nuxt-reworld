@@ -13,7 +13,7 @@
               <nuxt-link :to="'/profile/'+article.author.username" class="author">{{
                 article.author.username
               }}</nuxt-link>
-              <span class="date">{{ article.createdAt }}</span>
+              <span class="date">{{ article.createdAt | date('MMM DD, YYYY') }}</span>
             </div>
 
             <span v-if="user.username === article.author.username">
@@ -92,7 +92,7 @@
               <nuxt-link :to="'/profile/'+article.author.username" class="author">{{
                 article.author.username
               }}</nuxt-link>
-              <span class="date">{{ article.createdAt }}</span>
+              <span class="date">{{ article.createdAt | date('MMM DD, YYYY') }}</span>
             </div>
             <span v-if="user.username === article.author.username">
               <nuxt-link
@@ -179,7 +179,7 @@
                 <nuxt-link :to="'/profile/'+article.author.username" class="comment-author">{{
                   item.author.username
                 }}</nuxt-link>
-                <span class="date-posted">{{ item.createdAt }}</span>
+                <span class="date-posted">{{ item.createdAt | date('MMM DD, YYYY') }}</span>
                 <span class="mod-options" v-if="user.username === item.author.username">
                   <!-- <i class="ion-edit"></i> -->
                   <i class="ion-trash-a" @click="delComments(item)"></i>
